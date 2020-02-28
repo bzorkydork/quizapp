@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Electronic Music Quiz:</title>
+    <meta name="viewport" content="width=device-width, initial scale=1">
+    <meta name="description" type="How well do you know Electronic Music Genres?">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <main role="main" class="container">
+      <header role="banner" class="header">
+        <section>
+          <a href="index.html">
+            <img class="sacredGeometry" src="images/sacredGeometry.png" alt="gold geometric shape" /> 
+          </a>
+        </section>
+        <section class="title">
+          <h1>Electronic Music Quiz:</h1>
+        </section>
+        <section>
+        <ul>
+          <li class="listSize">Question:
+            <span class="questionNumber">1</span>/10</li>
+          <li class="listSize">Score:
+            <span class="score">0</span>
+          </li>
+        </ul>
+        </section>
+      </header>
+      <section role="formBackground" class="backgroundContainer">
+        <section class="quizBox">
+          <form>
+            <fieldset>
+              <legend class="questionText">What is the most used drum sample in Drum & Bass tracks?</legend>
+              <label class="listSize" for ="0">
+                <input class="radio" type="radio" id="0" value="Amen, Brother - The Winstons" name="answer" required>
+                <span>"Amen, Brother" - The Winstons</span>
+              </label>
+              <label class="listSize" for="1">
+                 <input class="radio" type="radio" id="1" value="Funky Drummer - James Brown" name="answer" required>
+                <span>"Funky Drummer" - James Brown</span>
+              </label>
+              <label class="listSize" for="2">
+                <input class="radio" type="radio" id="2" value="Do The Do - Kurtis Blow" name="answer" required>
+                <span>"Do The Do" - Kurtis Blow</span>
+              </label>
+              <label class="listSize" for="3">
+                <input class="radio" type="radio" id="3" value="The Harlem Shake - Baauer" name="answer" required>
+                <span>The Harlem Shake" - Baauer</span>
+              </label><button type="button" class="beginQuizButton" onclick="window.location.href = 'feedback.html';">Submit</button>
+            </fieldset>
+          </form>
+        </section>
+      </section>
+    <script src="script.js"></script>
+  </body>
+</html>
