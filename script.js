@@ -46,7 +46,7 @@ function startQuiz() {
 
 //submits/checks answer against correct answer in STORE.
 function submitAnswer() {
-  $('.backgroundContainer').on('submit', function (event) {
+  $('main').on('submit', function (event) {
     event.preventDefault();
     $('.altBox').hide();
     $('.response').show();
@@ -102,7 +102,7 @@ function wrongAnswer() {
 }
 
 function nextQuestion() {
-  $('.backgroundContainer').on('click', '.nextButton', function (event) {
+  $('main').on('click', '.nextButton', function (event) {
     $('.altBox').hide();
     $('.questionBox').show();
     updateQuestionNumber();
