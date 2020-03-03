@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Electronic Music Quiz:</title>
-    <meta name="viewport" content="width=device-width>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" type="How well do you know Electronic Music Genres?">
     <link rel="shortcut icon" href="#">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
@@ -12,27 +12,26 @@
     <script src="store.js"></script>
   </head>
   <body>
-    <main role="main" class="container">
-      <header role="banner" class="header">
-        <section>
-          <a href="index.html">
-            <img class="sacredGeometry" src="images/sacredGeometry.png" alt="gold geometric shape" /> 
-          </a>
-        </section>
-        <section class="title">
-          <h1>Electronic Music Quiz:</h1>
-        </section>
-        <section>
-        <ul>
-          <li class="quizSize">Question:
-            <span class="questionNumber">0</span>/10</li>
-          <li class="quizSize">Score:
-            <span class="score">0</span>
-          </li>
-        </ul>
-        </section>
-      </header>
-      <section role="formBackground" class="backgroundContainer">
+    <header role="banner" class="header">
+    <section>
+        <a href="index.html">
+          <img class="sacredGeometry" src="images/sacredGeometry.png" alt="gold geometric shape" /> 
+        </a>
+      </section>
+      <section class="title">
+        <h1>Electronic Music Quiz:</h1>
+      </section>
+      <section>
+      <ul>
+        <li class="quizSize">Question:
+          <span class="questionNumber">0</span>/10</li>
+        <li class="quizSize">Score:
+          <span class="score">0</span>
+        </li>
+      </ul>
+      </section>
+    </header>
+    <main role="formBackground">
         <section class="quizBox box">
           <h2>Are you ready to test your EDM knowledge?</h2>
           <button type="button" class="beginQuizButton button">Begin</button>
@@ -41,7 +40,7 @@
         </section>
         <section class="response box altBox"></section>
         <section class="final box altBox"></section>
-      </section>
+    </main>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="script.js"></script>
   </body>
